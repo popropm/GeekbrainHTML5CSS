@@ -1,0 +1,33 @@
+.AboutYourProduct {
+  height: 345px;
+}
+
+.AboutYourProduct article {
+  color:  #333333;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  width: 653px;
+  height: 143px;
+  margin-left: 50px;
+}
+
+.AboutYourProduct h3 {
+  color:  #445161;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 36px;
+  text-align: left;
+  margin-left: 50px;
+  margin-top: 50px;
+}
+
+.AboutYourProduct aside {
+  width: 430px;
+  height: 245px;
+  background-color:  #445161;
+  float: right;
+  margin-top: -65px;
+  margin-right: 50px;
+}

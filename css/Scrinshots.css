@@ -1,0 +1,61 @@
+
+.Scrinshots {
+  height: 487px;
+}
+
+.Scrinshots h4{
+  margin: 51px 0 0 571px;
+  color:  #445161;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 36px;
+  text-align: left;
+}
+
+
+.Scrinshots section  p {
+  color: #333333;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  margin: 0;
+}
+
+.Scrinshots section  {
+  width: 575px;
+  height: 151px;
+  float: left;
+  margin-top: 30px;
+  margin-left: 50px;
+}
+
+.Scrinshots section  div {
+  float: left;
+  background-color: #445161;
+  width: 200px;
+  height: 150px;
+}
+
+.Scrinshots section aside {
+  float: left;
+  width: 360px;
+  margin-left: 15px;
+}
+.Scrinshots section aside h2{
+  color: #445161;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: left;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.Scrinshots section aside p{
+  color: #333333;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  margin-top: 0;
+}
