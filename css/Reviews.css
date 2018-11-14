@@ -1,0 +1,56 @@
+.Reviews {
+  height: 424px;
+  background-color: #f5f5f5
+
+}
+
+.Reviews h2 {
+  color: #445161;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 36px;
+  text-align: left;
+  float: left;
+  margin-left: 595px;
+  margin-top: 50px;
+}
+
+.Reviews article {
+  width: 640px;
+  height: 121px;
+  float: left;
+  margin-bottom: 24px;
+
+}
+
+.Reviews article div {
+  float: left;
+  border-radius: 50%;
+  background-color: #445161;
+  width: 75px;
+  height: 75px;
+  margin-left: 50px;
+}
+
+.Reviews figure {
+  color: #989898;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  text-align: left;
+  background: url("../img/review.png");
+  width: 458px;
+  height: 121px;
+  float: left;
+  margin: 0 0 0 16px;
+  padding-left: 25px;
+}
+
+.Reviews p {
+  color: #333333;
+  font-size: 14px;
+  font-style: italic;
+  line-height: 18px;
+  text-align: left;
+}
+
