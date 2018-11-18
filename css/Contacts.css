@@ -1,0 +1,91 @@
+.Contacts{
+  width: 1280px;
+  background: #445162;;
+}
+
+.Contacts:after{
+  content: ' ';
+  clear: both;
+  display: block;
+}
+
+.Contacts h2{
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 36px;
+  text-align: center;
+  padding-top: 53px;
+
+}
+.Messages input[type="text"], .Messages input[type="email"]{
+  border-radius: 5px;
+  background-color: #ffffff;
+  width: 490px;
+  height: 40px;
+  padding-left: 10px;
+  margin-bottom: 21px;
+  color: #445162;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+}
+
+.Messages input[type="submit"] {
+  border-radius: 5px;
+  background-color: #ffffff;
+  width: 140px;
+  height: 40px;
+  margin-bottom:49px;
+  margin-left: 180px;
+  color: #445162;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: center;
+}
+.Messages textarea{
+  border-radius: 5px;
+  background-color: #ffffff;
+  width: 490px;
+  height: 160px;
+  padding-left: 10px;
+  margin-bottom: 21px;
+  padding-top: 10px;
+  color: #445162;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+}
+.Messages{
+  width: 500px;
+  margin-left: 249px;
+  float: left;
+}
+
+.Contacts address{
+float: left;
+}
+
+.Contacts address p {
+  height: 23px;
+  background: no-repeat;
+  padding-left: 30px;
+  background-size: 21px;
+  margin-left: 46px;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  padding-top: 1px;
+}
+
+.Contacts address div {
+  width: 240px;
+  height: 42px;
+  background-size: contain;
+  margin-left: 46px;
+}

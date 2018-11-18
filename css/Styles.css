@@ -1,8 +1,13 @@
 #main {
   width: 1280px;
-  height: 3186px;
   box-shadow: 0 0 2px black;
   margin: 0 auto;
+}
+
+#main:after{
+  content: ' ';
+  clear: both;
+  display: block;
 }
 
 body {
