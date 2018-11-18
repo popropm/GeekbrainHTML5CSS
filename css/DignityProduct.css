@@ -3,7 +3,7 @@
   height: 417px;
 }
 
-.DignityProduct h1 {
+.DignityProduct h2 {
   float: left;
   color: #445161;
   font-size: 30px;
@@ -14,7 +14,7 @@
   margin-left: 464px;
 }
 
-.DignityProduct section span {
+.plus span {
   color: #333333;
   font-size: 16px;
   font-weight: 400;
@@ -26,7 +26,7 @@
   width: 530px;
 }
 
-.DignityProduct section {
+.plus {
   float: left;
   width: 640px;
   height: 63px;

@@ -13,7 +13,7 @@
   margin-left: 50px;
 }
 
-.AboutYourProduct h3 {
+.AboutYourProduct article h3 {
   color:  #445161;
   font-size: 30px;
   font-weight: 400;
@@ -23,11 +23,11 @@
   margin-top: 50px;
 }
 
-.AboutYourProduct aside {
+.AboutYourProduct div {
   width: 430px;
   height: 245px;
   background-color:  #445161;
   float: right;
-  margin-top: -65px;
+  margin-top: 0;
   margin-right: 50px;
 }

@@ -1,0 +1,70 @@
+.Buy{
+  width: 1280px;
+  height: 656px;
+}
+
+.Buy h2{
+  color: #445161;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 36px;
+  text-align: left;
+  margin-left: 572px;
+  margin-top: 50px;
+}
+
+.BuyBlock  {
+  background: #3c4958;
+  width: 300px;
+  border-radius: 5px;
+}
+
+.BuyBlock:after {
+  content: ' ';
+  clear: both;
+  display: block;
+}
+
+.BuyBlock h4 {
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: center;
+  padding-top: 16px;
+}
+.BuyBlock div{
+  width: 296px;
+  height: 52px;
+  background: #ffffff;
+  color: #445162;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: center;
+  padding-top: 19px;
+  margin-left: 2px;
+}
+.BuyBlock li{
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+}
+.BuyBlock input{
+  border-radius: 5px;
+  background-color: #ffffff;
+  width: 260px;
+  height: 40px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  float: left;
+}
+.BlockFlex{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-around;
+  align-content:flex-end;
+  align-items:flex-end;
+}
