@@ -18,7 +18,7 @@
   padding-top: 53px;
 
 }
-.Messages input[type="text"], .Messages input[type="email"]{
+.Messages input[type="text"], .Messages input[type="email"], .Messages input[type="tel"] , .Messages input[type="date"]{
   border-radius: 5px;
   background-color: #ffffff;
   width: 490px;

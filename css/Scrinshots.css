@@ -13,7 +13,7 @@
 }
 
 
-.Scrinshots section  p {
+.Scrinshots article  p {
   color: #333333;
   font-size: 16px;
   font-weight: 400;
@@ -22,7 +22,7 @@
   margin: 0;
 }
 
-.Scrinshots section  {
+.Scrinshots article  {
   width: 575px;
   height: 151px;
   float: left;
@@ -30,19 +30,19 @@
   margin-left: 50px;
 }
 
-.Scrinshots section  div {
+.Scrinshots article  div {
   float: left;
   background-color: #445161;
   width: 200px;
   height: 150px;
 }
 
-.Scrinshots section aside {
+.Scrinshots article aside {
   float: left;
   width: 360px;
   margin-left: 15px;
 }
-.Scrinshots section aside h2{
+.Scrinshots article aside h2{
   color: #445161;
   font-size: 24px;
   font-weight: 400;
@@ -51,7 +51,7 @@
   margin-top: 0;
   margin-bottom: 0;
 }
-.Scrinshots section aside p{
+.Scrinshots article aside p{
   color: #333333;
   font-size: 16px;
   font-weight: 400;

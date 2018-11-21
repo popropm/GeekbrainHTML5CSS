@@ -15,7 +15,7 @@
   margin-top: 50px;
 }
 
-.Reviews article {
+.Reviews .comments {
   width: 640px;
   height: 121px;
   float: left;
@@ -23,7 +23,7 @@
 
 }
 
-.Reviews article div {
+.Reviews .comments div {
   float: left;
   border-radius: 50%;
   background-color: #445161;
