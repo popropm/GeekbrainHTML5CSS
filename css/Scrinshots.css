@@ -32,9 +32,9 @@
 
 .Scrinshots article  div {
   float: left;
-  background-color: #445161;
   width: 200px;
   height: 150px;
+
 }
 
 .Scrinshots article aside {
@@ -59,3 +59,4 @@
   text-align: left;
   margin-top: 0;
 }
+
