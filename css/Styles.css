@@ -52,6 +52,16 @@ header .img {
   margin-right: 50px;
   width: 469px;
   height: 214px;
-  background-color: #fff;
   float: right;
+  background: url("../img/cat-in-black-silhouette.svg") 151px 102px / 24% no-repeat ,
+              url("../img/pile-of-dung.svg")262px 168px / 10% no-repeat,
+              url("../img/food.svg")12px 1px / 7% no-repeat,
+              url("../img/tennis-raquet-and-ball.svg")60px 1px / 7% no-repeat,
+              url("../img/first-aid.svg")106px 1px / 7% no-repeat,
+              url("../img/store.svg")166px 1px / 7% no-repeat,
+              url("../img/settings-gears.svg")421px 1px / 7% no-repeat,
+              url("../img/pawprints.svg")216px 1px / 7% no-repeat,
+              url("../img/book.svg")263px 1px / 7% no-repeat,
+              url("../img/camera.svg")313px 1px / 7% no-repeat,
+              url("../img/washing-machine.svg")366px 1px / 7% no-repeat, #ffffff;
 }
