@@ -1,67 +1,91 @@
 #main {
-  width: 1280px;
-  box-shadow: 0 0 2px black;
-  margin: 0 auto;
+    width: 1280px;
+    box-shadow: 0 0 2px black;
+    margin: 0 auto;
 }
 
-#main:after{
-  content: ' ';
-  clear: both;
-  display: block;
+#main:after {
+    content: ' ';
+    clear: both;
+    display: block;
 }
 
 body {
-  font-family: Arial;
+    font-family: Arial;
 }
 
 header {
-  height: 323px;
-  background-color: #445162;
+    background-color: #445162;
 }
 
-header h1{
-  float: left;
-  margin-left: 50px;
-  margin-top: 50px;
-  color:  #ffffff;
-  font-size: 60px;
-  font-weight: 400;
-  text-align: left;
-  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.3);
+header:after {
+    content: "";
+    display: block;
+    clear: both;
 }
 
+header h1 {
+    float: left;
+    margin-left: 50px;
+    margin-top: 50px;
+    color: #ffffff;
+    font-size: 60px;
+    font-weight: 400;
+    text-align: left;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.3);
+}
 
 header ul {
-  clear: both;
-  margin-left: 86px;
-  margin-top: 51px;
+    clear: both;
+    margin-left: 86px;
+    margin-top: 51px;
 }
 
 header ul li {
-  color:  #ffffff;
-  font-size: 20px;
-  font-weight: 400;
-  line-height: 36px;
-  text-align: left;
-  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.3);
-  list-style-image: url("../img/checkicon.png");
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: left;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.3);
+    list-style-image: url("../img/checkicon.png");
 }
 
 header .img {
-  margin-top: 50px;
-  margin-right: 50px;
-  width: 469px;
-  height: 214px;
-  float: right;
-  background: url("../img/cat-in-black-silhouette.svg") 151px 102px / 24% no-repeat ,
-              url("../img/pile-of-dung.svg")262px 168px / 10% no-repeat,
-              url("../img/food.svg")12px 1px / 7% no-repeat,
-              url("../img/tennis-raquet-and-ball.svg")60px 1px / 7% no-repeat,
-              url("../img/first-aid.svg")106px 1px / 7% no-repeat,
-              url("../img/store.svg")166px 1px / 7% no-repeat,
-              url("../img/settings-gears.svg")421px 1px / 7% no-repeat,
-              url("../img/pawprints.svg")216px 1px / 7% no-repeat,
-              url("../img/book.svg")263px 1px / 7% no-repeat,
-              url("../img/camera.svg")313px 1px / 7% no-repeat,
-              url("../img/washing-machine.svg")366px 1px / 7% no-repeat, #ffffff;
+    margin-top: 50px;
+    margin-right: 50px;
+    width: 469px;
+    height: 214px;
+    float: right;
+    background: url("../img/cat-in-black-silhouette.svg") 151px 102px / 24% no-repeat,
+    url("../img/pile-of-dung.svg") 262px 168px / 10% no-repeat,
+    url("../img/food.svg") 12px 1px / 7% no-repeat,
+    url("../img/tennis-raquet-and-ball.svg") 60px 1px / 7% no-repeat,
+    url("../img/first-aid.svg") 106px 1px / 7% no-repeat,
+    url("../img/store.svg") 166px 1px / 7% no-repeat,
+    url("../img/settings-gears.svg") 421px 1px / 7% no-repeat,
+    url("../img/pawprints.svg") 216px 1px / 7% no-repeat,
+    url("../img/book.svg") 263px 1px / 7% no-repeat,
+    url("../img/camera.svg") 313px 1px / 7% no-repeat,
+    url("../img/washing-machine.svg") 366px 1px / 7% no-repeat, #ffffff;
+}
+
+@media (max-width: 700px) {
+    #main {
+        width: 778px;
+    }
+
+    header .img {
+        float: left !important;
+        clear: both;
+        display: block;
+        margin-bottom: 35px;
+        margin-left:160px;
+    }
+    header ul {
+        margin-left:160px;
+    }
+    header h1 {
+        margin-left:160px;
+    }
 }

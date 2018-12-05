@@ -1,22 +1,27 @@
 .Buy{
-  width: 1280px;
-  height: 656px;
 }
 
+.Buy:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+
 .Buy h2{
+  padding-top: 50px;
   color: #445161;
   font-size: 30px;
   font-weight: 400;
   line-height: 36px;
-  text-align: left;
-  margin-left: 572px;
-  margin-top: 50px;
+  text-align: center;
 }
 
 .BuyBlock  {
   background: #3c4958;
   width: 300px;
   border-radius: 5px;
+  margin: 10px 50% 0 calc(50% - 150px);
 }
 
 .BuyBlock:after {
@@ -67,4 +72,13 @@
   justify-content:space-around;
   align-content:flex-end;
   align-items:flex-end;
+}
+
+@media (max-width: 700px) {
+  .BlockFlex {
+    display: block;
+  }
+  .BuyBlock {
+    float: left;
+  }
 }

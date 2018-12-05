@@ -1,48 +1,52 @@
 .DignityProduct {
-  background-color: #f5f5f5;
-  height: 417px;
+    background-color: #f5f5f5;
+}
+
+.DignityProduct:after {
+    content: '';
+    display: block;
+    clear: both;
 }
 
 .DignityProduct h2 {
-  float: left;
-  color: #445161;
-  font-size: 30px;
-  font-weight: 400;
-  line-height: 36px;
-  text-align: left;
-  margin-top: 50px;
-  margin-left: 464px;
+    color: #445161;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: center;
+    padding-top: 50px;
 }
 
 .plus span {
-  color: #333333;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 24px;
-  text-align: left;
-  margin-left: 6px;
-  height: 63px;
-  display: inline-block;
-  width: 530px;
+    color: #333333;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    margin-left: 6px;
+    height: 63px;
+    display: inline-block;
+    width: 530px;
 }
 
 .plus {
-  float: left;
-  width: 640px;
-  height: 63px;
-  margin-top: 29px;
-  margin-right: -56px;
+    float: left;
+    width: 640px;
+    height: 63px;
+    margin-top: 10px;
+    margin-right: -56px;
+    margin-bottom: 19px;
 }
 
 .sectionImage {
-  float: left;
-  width: 32px;
-  height: 32px;
-  background-color: #445161;
-  background-image: url(../img/Layer2.png);
-  background-size: 70%;
-  background-repeat: no-repeat;
-  background-position: 5px 5px;
-  margin-left: 56px;
-  margin-top: 5px;
+    float: left;
+    width: 32px;
+    height: 32px;
+    background-color: #445161;
+    background-image: url(../img/Layer2.png);
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: 5px 5px;
+    margin-left: 56px;
+    margin-top: 5px;
 }

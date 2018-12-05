@@ -1,62 +1,77 @@
 
 .Scrinshots {
-  height: 487px;
 }
 
-.Scrinshots h4{
-  margin: 51px 0 0 571px;
-  color:  #445161;
-  font-size: 30px;
-  font-weight: 400;
-  line-height: 36px;
-  text-align: left;
+.Scrinshots:after {
+    content: '';
+    display: block;
+    clear: both;
 }
 
-
-.Scrinshots article  p {
-  color: #333333;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 24px;
-  text-align: left;
-  margin: 0;
+.Scrinshots h4 {
+    color: #445161;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: center;
 }
 
-.Scrinshots article  {
-  width: 575px;
-  height: 151px;
-  float: left;
-  margin-top: 30px;
-  margin-left: 50px;
+.Scrinshots article p {
+    color: #333333;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    margin: 0;
 }
 
-.Scrinshots article  div {
-  float: left;
-  width: 200px;
-  height: 150px;
+.Scrinshots article {
+    width: 575px;
+    height: 151px;
+    float: left;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+.Scrinshots article div {
+    float: left;
+    width: 200px;
+    height: 150px;
 
 }
 
 .Scrinshots article aside {
-  float: left;
-  width: 360px;
-  margin-left: 15px;
-}
-.Scrinshots article aside h2{
-  color: #445161;
-  font-size: 24px;
-  font-weight: 400;
-  line-height: 30px;
-  text-align: left;
-  margin-top: 0;
-  margin-bottom: 0;
-}
-.Scrinshots article aside p{
-  color: #333333;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 24px;
-  text-align: left;
-  margin-top: 0;
+    float: left;
+    width: 360px;
+    margin-left: 15px;
 }
 
+.Scrinshots article aside h2 {
+    color: #445161;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.Scrinshots article aside p {
+    color: #333333;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    margin-top: 0;
+}
+
+@media (max-width: 700px) {
+    .Scrinshots article {
+        height: auto;
+        width: 100%;
+    }
+
+    .Scrinshots aside {
+        width: auto;
+    }
+}
