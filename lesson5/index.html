@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8">
     <title>Title</title>
     <style>
@@ -8,6 +9,7 @@
     </style>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/Grid.css">
+    <link rel="stylesheet" href="css/footer.css">
 </head>
 <body>
 
@@ -46,15 +48,15 @@
         </div>
 
         <div id="rightArrow"></div>
-
-        <ul class="slider">
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-        </ul>
-
+        <div class="sliderBlock">
+            <ul class="slider">
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
     </div>
 
     <main>
@@ -117,9 +119,9 @@
                 processus dynamicus, qui sequitur mutationem consuetudium.</p>
 
             <div class="ShotImg">
-                <div class="Shot" style='background: url("img/browser-left.png"); top: 82px; left:400px;'></div>
+                <div class="Shot" style='background: url("img/browser-left.png"); top: 82px; left:0;'></div>
                 <div class="Shot" style='background: url("img/browser-center.png"); height: 482px; z-index: 2'></div>
-                <div class="Shot" style='background: url("img/browser-right(1).png");top: 82px; left: 806px'></div>
+                <div class="Shot" style='background: url("img/browser-right(1).png");top: 82px; left: 406px'></div>
             </div>
         </section>
 
@@ -311,7 +313,7 @@
 
 
         <section class="Posts">
-            <h2 class="pageHead">Recent Posts.</h2>
+            <h2>Recent Posts.</h2>
             <p class="pageParagraph">Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius.
                 Claritas est etiam
                 processus dynamicus, qui sequitur mutationem consuetudium.</p>
@@ -320,6 +322,7 @@
                 <div style="grid-column: 2/3;">
                     <div class="postImage" style="background-image: url('img/photo9.png')">
                         <div class="calendar">
+                            <div></div>
                             <div></div>
                             <div></div>
                         </div>
@@ -337,6 +340,7 @@
                         <div class="Claritas">
                             <div></div>
                             <div></div>
+                            <div></div>
                         </div>
                         <div class="back"></div>
                     </div>
@@ -350,6 +354,7 @@
                 <div>
                     <div class="postImage" style="background-image: url('img/photo11.png')">
                         <div class="Claritas">
+                            <div></div>
                             <div></div>
                             <div></div>
                         </div>
@@ -367,7 +372,7 @@
         </section>
     </main>
 
-    <div class="Block">
+    <div class="cafe">
         <a href="#" style="grid-column: 2/3;"><img src="img/logo-01.png"></a>
         <a href="#"><img src="img/logo-02.png"></a>
         <a href="#"><img src="img/logo-03.png"></a>
@@ -375,6 +380,81 @@
     </div>
 
     </main>
+
+
+    <div class="RecentPosts">
+        <div style="grid-column: 2/3;">
+            <div class="BlockLogo">
+                <div class="Logo"></div>
+                <h3>Waxom</h3>
+            </div>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh
+                euismod tincidunt ut
+                laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci suscipit
+                lobortis claritatem.
+            </p>
+            <a href="#">Read More</a>
+        </div>
+
+        <div>
+            <h4>Recent Posts</h4>
+            <div>
+                <p class="date">September 08, 2015</p>
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit</p>
+            </div>
+            <hr>
+            <div>
+                <p class="date">September 08, 2015</p>
+                <p>Diam nonummy nibh euismod tincidunt ut laoreet dolore magna</p>
+            </div>
+            <hr>
+            <div>
+                <p class="date">September 08, 2015</p>
+                <p>Claritas est etiam processus dynamicus, qui sequitur mutationem per seacula quarta decima</p>
+            </div>
+        </div>
+
+        <div>
+            <h4>Our Twitter</h4>
+            <div>
+                <p><span>@waxom</span> Cum soluta nobis eleifend option congue
+                    nihil imperdiet doming</p>
+                <p class="date">3 mins ago</p>
+            </div>
+            <hr>
+            <div>
+                <p>Mirum est <span>#envato</span> notare quam littera gothica,
+                    quam nunc putamus parum
+                    anteposuerit litterarum</p>
+                <p class="date">5 hours ago</p>
+            </div>
+
+            <hr>
+            <div>
+                <p>Soluta nobis option <span>bit.ly/1Hniso7</span></p>
+                <p class="date">20 days ago</p>
+            </div>
+        </div>
+
+        <div>
+            <h4>Widget</h4>
+            <img src="img/photo30.png">
+            <img src="img/photo31.png">
+            <img src="img/photo32.png">
+            <img src="img/photo33.png">
+        </div>
+    </div>
+    <footer>
+        <span>Copyright © 2015 <a href="#">Waxom</a>
+            |   Privacy Policy   |
+            <a href="#">FAQ</a>   |
+            Support</span>
+        <span>Designed by <a href="#">ThemeFire</a>
+            |   Only on <a href="#">Envato Market</a>
+        </span>
+    </footer>
+
+
 </div>
 </body>
 </html>

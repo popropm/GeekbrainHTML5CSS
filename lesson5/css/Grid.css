@@ -84,13 +84,29 @@
 
 #ProjectsGrid {
     display: grid;
-    grid-template-columns: 346px repeat(3, 370px) 334px;
+    grid-template-columns:minmax(0px, 1fr)repeat(auto-fit, 370px) minmax(0px, 1fr);
     grid-template-rows: 337px 337px;
     grid-gap: 30px;
     clear: both;
     padding-top: 40px;
     padding-bottom: 40px;
+    justify-content: center;
 }
+
+@media (max-width: 1230px) {
+    #ProjectsGrid{
+        grid-template-columns: repeat(auto-fit, 370px);
+        grid-template-rows: 337px auto;
+    }
+
+    .ProjectsBlock {
+        grid-column: auto !important;
+        grid-row: auto !important;
+    }
+}
+
+
+
 
 .background {
     width: 100%;
